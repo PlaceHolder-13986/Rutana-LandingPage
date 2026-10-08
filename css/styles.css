@@ -29,3 +29,18 @@ ul { list-style: none; }
 button { font: inherit; cursor: pointer; background: none; border: none; }
 
 .container { width: 100%; max-width: var(--container); margin-inline: auto; padding-inline: 16px; }
+
+
+.btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 48px; padding: 0 24px;            /* 48px = área táctil mínima */
+  border-radius: var(--radius-sm); border: 2px solid transparent;
+  font-weight: 600; font-size: 0.95rem; transition: background .2s, transform .2s, color .2s;
+}
+.btn:hover { transform: translateY(-1px); }
+.btn--primary { background: var(--yellow); color: var(--text); }
+.btn--primary:hover { background: var(--yellow-dark); }
+.btn--outline-light { border-color: var(--white); color: var(--white); }
+.btn--outline-light:hover { background: var(--white); color: var(--navy); }
+.btn--sm { min-height: 40px; padding: 0 20px; }
+.btn--block { width: 100%; }
