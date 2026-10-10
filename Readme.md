@@ -1,114 +1,114 @@
 # Rutana - Landing Page
 
-Official landing page for **Rutana**, a smart route management platform for distribution companies. This project introduces the product, highlights its key features and plans, and guides users through the platform's value proposition.
+Landing page oficial de **Rutana**, una plataforma inteligente de gestión de rutas para empresas de distribución. Este proyecto presenta el producto, destaca sus características y planes principales, y guía a los usuarios a través de la propuesta de valor de la plataforma.
 
 ---
 
-## Description
+## Descripción
 
-Rutana is a logistics solution designed for companies that need to plan delivery routes, assign vehicles and teams, and monitor deliveries and incidents from a single platform.
+Rutana es una solución logística diseñada para empresas que necesitan planificar rutas de entrega, asignar vehículos y equipos, y monitorear entregas e incidencias desde una sola plataforma.
 
-This **landing page** serves the following purposes:
+Esta **landing page** cumple los siguientes propósitos:
 
-- Present Rutana's value proposition.
-- Showcase route planning, fleet management, and incident tracking features.
-- Display the available subscription plans.
-- Introduce the team behind the project.
-- Share testimonials and contact information.
-
----
-
-## Features
-
-- **Responsive design** optimized for desktop and mobile devices.
-- **Mobile navigation menu** with a hamburger button and keyboard support.
-- **Main sections**: Hero, Features, About Us, Our Team, Plans, and Testimonials.
-- **Route planning** with client locations and interactive-map references.
-- **Fleet and team management** with vehicle capacity and team assignments.
-- **Delivery tracking and incident reports** with photo evidence.
-- **Dynamic active navigation link** based on the visible section.
-- **Sticky header** with a scroll shadow effect.
-- **Footer** with product, company, and contact links.
-- **Dynamic copyright year** generated with JavaScript.
+- Presentar la propuesta de valor de Rutana.
+- Mostrar las funcionalidades de planificación de rutas, gestión de flota y seguimiento de incidencias.
+- Exhibir los planes de suscripción disponibles.
+- Presentar al equipo detrás del proyecto.
+- Compartir testimonios e información de contacto.
 
 ---
 
-## Technologies Used
+## Características
 
-| Technology | Description |
+- **Diseño responsivo** optimizado para dispositivos de escritorio y móviles.
+- **Menú de navegación móvil** con botón de hamburguesa y soporte de teclado.
+- **Secciones principales**: Hero, Características, Sobre nosotros, Nuestro equipo, Planes y Testimonios.
+- **Planificación de rutas** con ubicaciones de clientes y referencias a mapas interactivos.
+- **Gestión de flota y equipos** con capacidad de vehículos y asignación de equipos.
+- **Seguimiento de entregas y reportes de incidencias** con evidencia fotográfica.
+- **Enlace de navegación activo dinámico** según la sección visible.
+- **Encabezado fijo (sticky)** con efecto de sombra al hacer scroll.
+- **Pie de página** con enlaces de producto, empresa y contacto.
+- **Año de copyright dinámico** generado con JavaScript.
+
+---
+
+## Tecnologías Utilizadas
+
+| Tecnología | Descripción |
 |------------|-------------|
-| **HTML5** | Semantic structure for the landing page |
-| **CSS3** | Responsive layout, custom properties, animations, and component styles |
-| **JavaScript (ES6)** | Mobile navigation, section tracking, scroll behavior, and dynamic footer year |
-| **Google Fonts** | Inter typography loaded from Google Fonts |
-| **SVG** | Logo, avatars, and inline interface illustrations |
+| **HTML5** | Estructura semántica de la landing page |
+| **CSS3** | Diseño responsivo, propiedades personalizadas, animaciones y estilos de componentes |
+| **JavaScript (ES6)** | Navegación móvil, seguimiento de secciones, comportamiento del scroll y año dinámico del pie de página |
+| **Google Fonts** | Tipografía Inter cargada desde Google Fonts |
+| **SVG** | Logo, avatares e ilustraciones de interfaz en línea |
 
 ---
 
-## Project Structure
+## Estructura del Proyecto
 
 ```
 Rutana-LandingPage/
 ├── assets/
-│   └── img/              # Logo, hero image, feature images, team photos, and avatars
+│   └── img/              # Logo, imagen hero, imágenes de características, fotos del equipo y avatares
 ├── css/
-│   └── styles.css        # Global styles and responsive layout
+│   └── styles.css        # Estilos globales y diseño responsivo
 ├── js/
-│   └── main.js           # Navigation, scroll behavior, active links, and footer year
-├── index.html             # Main landing page
+│   └── main.js           # Navegación, comportamiento del scroll, enlaces activos y año del pie de página
+├── index.html             # Landing page principal
 ├── .gitignore
-└── Readme.md             # Project documentation
+└── Readme.md             # Documentación del proyecto
 ```
 
 ---
 
-## Installation and Local Development
+## Instalación y Desarrollo Local
 
-### Prerequisites
+### Requisitos Previos
 
-- A modern web browser.
-- Git, if you want to clone the repository.
-- A local static server (recommended for development).
+- Un navegador web moderno.
+- Git, si deseas clonar el repositorio.
+- Un servidor estático local (recomendado para el desarrollo).
 
-### Steps
+### Pasos
 
-1. Clone the repository:
+1. Clona el repositorio:
 
-   ```bash
+```bash
    git clone https://github.com/PlaceHolder-13986/Rutana-LandingPage.git
    cd Rutana-LandingPage
-   ```
+```
 
-2. Start a local server. For example, with Python:
+2. Inicia un servidor local. Por ejemplo, con Python:
 
-   ```bash
+```bash
    python -m http.server 8000
-   ```
+```
 
-3. Open your browser and visit:
+3. Abre tu navegador y visita:
 
-   ```
+```
    http://localhost:8000
-   ```
+```
 
-The page can also be opened directly from `index.html`, although a local server is recommended to reproduce a web-hosting environment.
+La página también puede abrirse directamente desde `index.html`, aunque se recomienda un servidor local para reproducir un entorno de hosting web.
 
-## Main Sections
+## Secciones Principales
 
-- **Hero**: Introduces Rutana and provides calls to action.
-- **Features**: Presents route planning, fleet and teams, and tracking and incidents.
-- **About Us**: Describes the mission, vision, and values.
-- **Our Team**: Shows the people behind the project.
-- **Plans**: Displays Basic, Pro, and Enterprise plans.
-- **Testimonials**: Presents user feedback about the platform.
-- **Footer**: Includes product, company, and contact links.
+- **Hero**: Presenta Rutana y ofrece llamadas a la acción.
+- **Características**: Presenta la planificación de rutas, flota y equipos, y seguimiento e incidencias.
+- **Sobre nosotros**: Describe la misión, visión y valores.
+- **Nuestro equipo**: Muestra a las personas detrás del proyecto.
+- **Planes**: Muestra los planes Basic, Pro y Enterprise.
+- **Testimonios**: Presenta opiniones de usuarios sobre la plataforma.
+- **Pie de página**: Incluye enlaces de producto, empresa y contacto.
 
-## Contributors
+## Colaboradores
 
-| Full name | Role |
-|-----------|------|
-| Christofer William Costa Morales | Developer |
-| Guillermo Arturo Howard Robles | Owner |
-| Bruno Aldair Huaman Gallardo | Developer |
-| Rodrigo Jesus Miraval Pomalaya | Developer |
-| Kenyi Efrain Ramirez Cabrera | Developer |
+| Nombre completo | Rol |
+|-----------------|-----|
+| Christofer William Costa Morales | Desarrollador |
+| Guillermo Arturo Howard Robles | Propietario |
+| Bruno Aldair Huaman Gallardo | Desarrollador |
+| Rodrigo Jesus Miraval Pomalaya | Desarrollador |
+| Kenyi Efrain Ramirez Cabrera | Desarrollador |
