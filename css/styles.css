@@ -168,10 +168,45 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 .footer__bottom { margin-top: 40px; padding-block: 20px; border-top: 1px solid rgba(255, 255, 255, .15); font-size: .875rem; text-align: center; }
 
 /* =====================================================================
-   TABLET (≥ 768px) — reglas correspondientes a Testimonials y Footer
+   TABLET (≥ 768px)
    ===================================================================== */
 @media (min-width: 768px) {
+  .container { padding-inline: 32px; }
+  .section { padding: 88px 0; }
+  .section__title { font-size: 2.25rem; }
+  .hero__title { font-size: 3rem; }
+
+  .features__grid { grid-template-columns: repeat(2, 1fr); }
+  .about__grid { grid-template-columns: repeat(3, 1fr); }
+  .team__grid { grid-template-columns: repeat(3, 1fr); }
+  .member:last-child:nth-child(odd) { grid-column: auto; }
   .testimonials__grid { grid-template-columns: repeat(2, 1fr); }
   .footer__grid { grid-template-columns: 2fr 1fr 1fr 1fr; }
   .footer__bottom { text-align: left; }
+}
+
+/* =====================================================================
+   DESKTOP (≥ 1024px)
+   ===================================================================== */
+@media (min-width: 1024px) {
+  /* Navegación horizontal: se oculta la hamburguesa y el menú queda fijo */
+  .nav__toggle { display: none; }
+  .nav__menu {
+    position: static; flex-direction: row; align-items: center; gap: 32px;
+    padding: 0; background: none; box-shadow: none;
+    transform: none; opacity: 1; visibility: visible;
+  }
+  .nav__list { flex-direction: row; gap: 28px; }
+  .nav__link { padding: 0; border: none; font-size: .95rem; }
+
+  .hero { padding: 96px 0 112px; }
+  .hero__grid { grid-template-columns: 1.1fr 1fr; gap: 64px; }
+  .hero__title { font-size: 3.5rem; }
+
+  .features__grid { grid-template-columns: repeat(3, 1fr); }
+  .team__grid { grid-template-columns: repeat(5, 1fr); }
+  .member__photo { width: 140px; height: 140px; }
+
+  .plans__grid { grid-template-columns: repeat(3, 1fr); max-width: none; align-items: center; }
+  .plan--featured { padding-block: 48px; }   /* la tarjeta del medio sobresale */
 }
