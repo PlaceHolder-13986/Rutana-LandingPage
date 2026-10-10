@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="36" viewBox="-1 -1 40 38">
+  <!-- Logo Rutana (redibujado). Si exportan el logo original desde Figma como SVG, reemplacen este archivo. -->
+  <g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round">
+    <path d="M0 0 H12 V3 L3 12 H0 Z"/>
+    <path d="M38 0 H26 V3 L35 12 H38 Z"/>
+    <path d="M19 3 L38 22 V33 L36.5 35 L19 18.5 L1.5 35 L0 33 V22 Z"/>
+  </g>
+</svg>
