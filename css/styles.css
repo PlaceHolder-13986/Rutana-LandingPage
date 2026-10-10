@@ -114,6 +114,16 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 .about__title { font-size: 1.25rem; font-weight: 700; margin-bottom: 8px; }
 .about__item p { color: rgba(255, 255, 255, .8); max-width: 320px; margin-inline: auto; }
 
+/* ---------- 9. Team ---------- */
+.team__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 32px 16px; }
+.member { text-align: center; }
+/* En móvil (2 columnas) el 5.º integrante queda centrado */
+.member:last-child:nth-child(odd) { grid-column: 1 / -1; }
+.member__photo { width: 120px; height: 120px; margin: 0 auto 12px; border-radius: 50%; object-fit: cover; border: 4px solid var(--bg-soft); }
+.member__name { font-size: 1rem; font-weight: 700; }
+.member__role { color: var(--muted); font-size: .875rem; }
+
+
 /* ---------- 11. Testimonials ---------- */
 .testimonials__grid { display: grid; gap: 24px; }
 .testimonial { padding: 28px 24px; display: flex; flex-direction: column; gap: 16px; }
