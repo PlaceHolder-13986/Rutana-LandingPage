@@ -80,3 +80,36 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 .nav__link:hover, .nav__link.active { color: var(--yellow); }
 
 /* ---------- 5. Secciones generales ---------- */
+.section { padding: 64px 0; }
+.section--dark { background: var(--navy); color: var(--white); }
+.section__header { text-align: center; max-width: 640px; margin: 0 auto 40px; }
+.section__title { font-size: 1.75rem; font-weight: 800; line-height: 1.2; }
+.section__subtitle { margin-top: 8px; color: var(--muted); }
+.section--dark .section__subtitle { color: rgba(255, 255, 255, .75); }
+
+.card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
+
+/* ---------- 6. Hero ---------- */
+.hero { padding: 48px 0 64px; }
+.hero__grid { display: grid; gap: 40px; align-items: center; }
+.hero__title { font-size: 2.25rem; font-weight: 800; line-height: 1.15; }
+.hero__text { margin-top: 16px; color: rgba(255, 255, 255, .85); max-width: 520px; }
+.hero__actions { margin-top: 28px; display: flex; flex-wrap: wrap; gap: 12px; }
+.hero__img { width: 100%; border-radius: var(--radius); box-shadow: 0 16px 40px rgba(0, 0, 0, .3); object-fit: cover; aspect-ratio: 4 / 3; }
+
+/* ---------- 7. Features ---------- */
+.features__grid { display: grid; gap: 24px; }
+.feature__img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+.feature__body { padding: 20px; }
+.feature__title { font-size: 1.125rem; font-weight: 700; margin-bottom: 8px; }
+.feature__body p { color: var(--muted); font-size: .95rem; }
+
+/* ---------- 8. About us ---------- */
+.about__grid { display: grid; gap: 40px; text-align: center; }
+.about__icon {
+  width: 88px; height: 88px; margin: 0 auto 16px; border-radius: 50%;
+  background: var(--white); display: grid; place-items: center;
+}
+.about__icon svg { width: 40px; height: 40px; fill: none; stroke: var(--navy); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.about__title { font-size: 1.25rem; font-weight: 700; margin-bottom: 8px; }
+.about__item p { color: rgba(255, 255, 255, .8); max-width: 320px; margin-inline: auto; }
