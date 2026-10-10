@@ -113,3 +113,31 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 .about__icon svg { width: 40px; height: 40px; fill: none; stroke: var(--navy); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .about__title { font-size: 1.25rem; font-weight: 700; margin-bottom: 8px; }
 .about__item p { color: rgba(255, 255, 255, .8); max-width: 320px; margin-inline: auto; }
+
+/* ---------- 11. Testimonials ---------- */
+.testimonials__grid { display: grid; gap: 24px; }
+.testimonial { padding: 28px 24px; display: flex; flex-direction: column; gap: 16px; }
+.testimonial__quote { font-size: 4rem; line-height: .6; color: var(--blue-quote); font-family: Georgia, serif; height: 32px; }
+.testimonial blockquote { color: var(--text); }
+.testimonial__author { display: flex; align-items: center; gap: 12px; margin-top: auto; }
+.testimonial__avatar { width: 48px; height: 48px; border-radius: 50%; object-fit: cover; }
+.testimonial__author span { display: flex; flex-direction: column; line-height: 1.3; }
+.testimonial__author small { color: var(--muted); }
+
+/* ---------- 12. Footer ---------- */
+.footer { background: var(--navy-dark); color: rgba(255, 255, 255, .8); padding-top: 48px; }
+.footer__grid { display: grid; gap: 32px; }
+.footer__brand p { margin-top: 12px; max-width: 280px; }
+.footer__col h4 { color: var(--white); font-size: 1rem; margin-bottom: 12px; }
+.footer__col li { margin-bottom: 8px; }
+.footer__col a:hover { color: var(--yellow); }
+.footer__bottom { margin-top: 40px; padding-block: 20px; border-top: 1px solid rgba(255, 255, 255, .15); font-size: .875rem; text-align: center; }
+
+/* =====================================================================
+   TABLET (≥ 768px) — reglas correspondientes a Testimonials y Footer
+   ===================================================================== */
+@media (min-width: 768px) {
+  .testimonials__grid { grid-template-columns: repeat(2, 1fr); }
+  .footer__grid { grid-template-columns: 2fr 1fr 1fr 1fr; }
+  .footer__bottom { text-align: left; }
+}
